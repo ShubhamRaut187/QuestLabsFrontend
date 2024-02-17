@@ -41,7 +41,9 @@
     /* border: 2px solid green; */
     /* height: 600px; */
     margin-top: -60px;
-    border-radius: 10px;
+    /* border-radius-t: 10px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -132,6 +134,7 @@
     margin-bottom: 10px;
     margin-top: 10px;   
     height: 350px;
+    /* overflow-x: scroll; */
 }
 .badge_image_card{
     height: 80px;
@@ -142,7 +145,16 @@
     height: 100%;
     border-radius: 8px;
 }
-
+.footer{
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 110%;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
 /* Media */
 /* Small Screens */
 @media screen and (min-width:320px) and (max-width:767px){
